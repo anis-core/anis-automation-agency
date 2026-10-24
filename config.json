@@ -1,0 +1,373 @@
+{
+  "site": {
+    "name": "AIB",
+    "logoImage": "Brand-logo.png",
+    "title": "AIB — AI Automation Agency",
+    "description": "AIB builds AI automation, custom AI agents, and workflow systems that take repetitive work off your team's plate.",
+    "tagline": "Building the AI workforce behind growing teams.",
+    "copyright": "© 2026 AIB. All rights reserved."
+  },
+  "nav": {
+    "links": [
+      { "label": "About", "href": "#problems" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Case Studies", "href": "#case" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "cta": { "label": "Contact Us", "href": "#contact" }
+  },
+  "hero": {
+    "eyebrow": "AI Automation Agency",
+    "title": "Automation built for growth.",
+    "subtitle": "We build AI systems that handle the repetitive work so your team can focus on what only humans can do.",
+    "primaryCta": { "label": "Get Your Free AI Audit", "href": "#contact" },
+    "secondaryCta": { "label": "See How It Works", "href": "#process" }
+  },
+  "logos": {
+    "text": "Built for founders, operations leaders, and growth teams.",
+    "items": [
+      { "label": "AI Consulting", "icon": "bulb" },
+      { "label": "AI Automation", "icon": "gear" },
+      { "label": "AI Agents", "icon": "user" },
+      { "label": "Business AI", "icon": "briefcase" },
+      { "label": "Workflow Automation", "icon": "network" }
+    ]
+  },
+  "stats": [
+    { "label": "AI Solutions", "note": "Tailored AI automation and intelligent solutions for businesses." },
+    { "label": "Less Manual Work", "note": "Copying data, sending updates, and moving information between tools happen automatically, so your team stops doing busywork." },
+    { "value": "3–7", "label": "Days from Idea to Live", "note": "Implementation takes 3–7 days, depending on scope, so you start benefiting almost immediately." },
+    { "label": "Built for Growth", "note": "Handle more clients and more volume as you grow, without adding headcount for every new task." }
+  ],
+  "problems": {
+    "eyebrow": "The Hidden Cost",
+    "title": "Your tools aren’t talking.",
+    "subtitle": "Your team isn't slow. Your systems just don't talk to each other and it's costing you every week.",
+    "items": [
+      { "number": "01", "title": "Leads go cold", "description": "Hours pass while your team manually qualifies inbound — and your best prospects move on." },
+      { "number": "02", "title": "Reports take days", "description": "Reports take days when the data already exists — but lives in five tools that don't talk to each other." },
+      { "number": "03", "title": "Customers wait", "description": "Support tickets pile up with answers your documentation already contains." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What we build for you.",
+    "subtitle": "Four service categories. Start with what's costing you the most.",
+    "items": [
+      { "icon": "ai", "title": "AI Workflow Automation", "description": "Connect your stack and let AI handle the handoffs. CRM updates, lead routing, document generation all automated, end-to-end.", "outcome": "Outcome: Save 20+ hours per week, per team." },
+      { "icon": "phone", "title": "AI Strategy & Consulting", "description": "Not sure where to start? We audit your operations, identify the highest-ROI opportunities, and deliver a clear roadmap before we build anything.", "outcome": "Outcome: Clarity in 3–7 days, not 2 quarters." },
+      { "icon": "user", "title": "Custom AI Agents", "description": "Purpose-built agents trained on your data — sales SDRs that book meetings, support bots that resolve tickets, research assistants that deliver briefs in minutes.", "outcome": "Outcome: Scale output without scaling headcount." },
+      { "icon": "funnel", "title": "Lead Generation & Qualification", "description": "AI-powered outbound systems that find, enrich, and qualify leads — then deliver hot conversations straight to your calendar.", "outcome": "Outcome: 3–5x more qualified pipeline." }
+    ],
+    "cta": {
+      "label": "Learn More",
+      "lessLabel": "Show Less",
+      "details": "Most businesses don't need more tools. They need the tools they already have to work together. I start by finding where your team loses the most time, then build AI systems that take that work off their plate.",
+      "points": [
+        { "title": "Respond to leads faster", "text": "AI agents reply to new enquiries, ask the right qualifying questions, and pass your best leads to you while their interest is still high, even outside business hours." },
+        { "title": "Remove repetitive work", "text": "Data entry, follow-up emails, reminders, and reports run automatically in the background, so your team spends its time on clients instead of copy-and-paste." },
+        { "title": "Connect your business", "text": "Your website, inbox, customer records, and spreadsheets share information automatically, so nothing falls through the cracks between them." },
+        { "title": "Grow without the busywork", "text": "As enquiries and clients increase, the system handles the extra volume, so you can grow without hiring for every repetitive task." }
+      ],
+      "closing": "Every system is built around your goals, tested before launch, and kept under your control, with a person involved in important decisions. The result is a business that responds faster, captures more opportunities, and runs more smoothly every day."
+    }
+  },
+  "industries": {
+    "eyebrow": "Industries We Serve",
+    "title": "Built for your industry",
+    "subtitle": "Finance, healthcare, e-commerce, SaaS, and professional services where automation delivers the highest return.",
+    "items": [
+      { "number": "001", "icon": "coins", "title": "Financial Services", "description": "Compliance, reporting, client onboarding — automated with the rigor your industry demands." },
+      { "number": "002", "icon": "health", "title": "Healthcare", "description": "HIPAA-aware workflows for intake, scheduling, and patient communication." },
+      { "number": "003", "icon": "cart", "title": "E-commerce & Retail", "description": "Support, fulfillment, and personalization systems that scale with your catalog." },
+      { "number": "004", "icon": "cloud", "title": "SaaS & Technology", "description": "Onboarding, customer success, and growth automation built for product-led teams." },
+      { "number": "005", "icon": "briefcase", "title": "Professional Services", "description": "Proposal generation, client reporting, and knowledge management — built for billable teams." }
+    ]
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "From Idea to Live in 3–7 Days",
+    "subtitle": "A clear, four-step path from your first idea to AI running in production in just 3–7 days, with no surprises in between.",
+    "steps": [
+      { "icon": "search", "title": "Discover", "description": "We start with a deep audit of your workflows, tools, and bottlenecks. You walk away with a clear map of where AI pays off first." },
+      { "icon": "bulb", "title": "Design", "description": "We architect your automation system: tools, integrations, agent logic, fallback rules. You approve every piece before we build." },
+      { "icon": "network", "title": "Deploy", "description": "We build, test, and ship fast. You see progress daily and start seeing results within days, not months." },
+      { "icon": "gear", "title": "Optimize", "description": "Automation isn't set-and-forget. We monitor, refine, and expand your systems as your business evolves." }
+    ]
+  },
+  "caseStudy": {
+    "eyebrow": "Selected Projects",
+    "title": "Real systems. Real results.",
+    "tagline": "Practical AI & Automation Solutions",
+    "subtitle": "Explore practical solutions built to streamline workflows and drive business growth. Projects typically ship within 7 days.",
+    "image": "case-study.jpg",
+    "imageAlt": "Business team discussing growth charts on a laptop in a modern office",
+    "result": "Systems built to scale with your business.",
+    "tags": ["Marketing Agency", "Workflow Automation"],
+    "headline": "One connected system replaces a stack of disconnected tools, so information flows without manual hand-offs.",
+    "cta": { "label": "Contact Us", "href": "#contact" },
+    "allCta": { "label": "Contact Us", "href": "#contact" }
+  },
+  "pricing": {
+    "eyebrow": "Engagements",
+    "title": "Simple, honest pricing.",
+    "subtitle": "Start with a Pilot, scale into a build, or embed me as a partner.",
+    "proof": {
+      "label": "Case study",
+      "text": "Automated data-to-report pipeline: automated data analysis and professional report creation, from raw data to a finished report."
+    },
+    "plans": [
+      {
+        "name": "Pilot", "price": "$750", "featured": false, "period": "One-time engagement",
+        "description": "A 3–7 day audit with a prioritized roadmap. No commitment to build.",
+        "roi": "Know exactly where AI saves you hours every week before spending more.",
+        "features": ["Business Operations Audit", "Prioritized AI Automation Opportunities", "60-Minute Strategy Session", "Step-by-Step Implementation Roadmap"],
+        "cta": { "label": "Start with a Pilot", "href": "#contact" },
+        "notes": [
+          "100% of the Pilot fee is credited toward any Scale engagement.",
+          "If I don't deliver the agreed roadmap, you get a full refund."
+        ]
+      },
+      {
+        "name": "Scale", "price": "$1,650", "featured": true, "period": "Per month",
+        "description": "Build and refine your systems in 3–7 day cycles.",
+        "roi": "Typically pays for itself within a few months.",
+        "features": ["Up to 3 Defined Workflows or 1 AI Agent", "Integration, Testing & Deployment", "Weekly Progress Updates", "Continuous Improvement & Optimization"],
+        "cta": { "label": "Start a Scale Sprint", "href": "#contact" }
+      },
+      {
+        "name": "Enterprise", "price": "Custom", "featured": false, "period": "Embedded partnership",
+        "description": "A dedicated AI partner delivering tailored automation systems aligned with your business goals.",
+        "roi": "Designed around your operational priorities and measurable outcomes.",
+        "features": ["Dedicated AI Automation Support", "Custom Workflow Development", "Priority Technical Support", "Quarterly Strategy & Performance Reviews"],
+        "cta": { "label": "Book a Discovery Call", "href": "#contact" }
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Common Questions",
+    "title": "Questions you might be asking.",
+    "items": [
+      { "q": "Do I need to be technical to work with you?", "a": "No. You explain how your business works and what you want to improve. I handle the technical implementation, integrations, and agreed support, while keeping you informed throughout the process." },
+      { "q": "How long until I see results?", "a": "Simple projects may be delivered within a few days, while more complex systems can take longer. Timelines depend on the project scope, required integrations, and access to the necessary tools and data." },
+      { "q": "What if I don't know what to automate yet?", "a": "That's what the Pilot is for. I review your business operations, identify promising AI automation opportunities, and provide a prioritized roadmap to help you decide what to implement first." },
+      { "q": "Is my data safe?", "a": "Data security is considered throughout the implementation process. Access is limited to what the solution requires, and appropriate security measures depend on the tools and systems involved. We agree on data access and handling before implementation." },
+      { "q": "What if the automation stops working?", "a": "I design workflows with error handling and recovery procedures where appropriate. Monitoring, alerts, troubleshooting, and ongoing maintenance depend on the project scope and support plan agreed upon." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "title": "Let’s find what to automate first.",
+    "subtitle": "Tell us about your team and the work slowing you down. We'll reply within one business day with next steps for your free AI audit.",
+    "email": "anis.aibuild@gmail.com",
+    "whatsapp": "213784681992",
+    "fields": [
+      { "name": "name", "label": "Full name", "type": "text", "placeholder": "Jane Cooper", "required": true },
+      { "name": "email", "label": "Work email", "type": "email", "placeholder": "jane@company.com", "required": true },
+      { "name": "company", "label": "Company", "type": "text", "placeholder": "Company Inc.", "required": false },
+      { "name": "message", "label": "What would you like to automate?", "type": "textarea", "placeholder": "Lead qualification, reporting, support…", "required": true }
+    ],
+    "submit": "Get Your Free AI Audit",
+    "sending": "Sending…",
+    "success": "Thanks! We'll be in touch within one business day.",
+    "error": "Sorry, your message couldn't be sent. Please try again, or reach out by email or WhatsApp.",
+    "web3forms": {
+      "accessKey": "c60cb523-b1d6-46fa-9e26-2acf8a27b119",
+      "subject": "New Free AI Audit request",
+      "fromName": "AIB Website"
+    }
+  },
+  "footer": {
+    "columns": [
+      { "title": "Services", "links": [ { "label": "AI Workflow Automation", "href": "#services" }, { "label": "Custom AI Agents", "href": "#services" }, { "label": "Lead Generation", "href": "#services" }, { "label": "AI Strategy", "href": "#services" } ] },
+      { "title": "Company", "links": [ { "label": "About", "href": "#problems" }, { "label": "Case Study", "href": "#case" }, { "label": "Pricing", "href": "#pricing" }, { "label": "Contact", "href": "#contact" } ] },
+      { "title": "Resources", "links": [ { "label": "Blog", "href": "/blog" }, { "label": "Free Audit", "href": "#contact" }, { "label": "Integrations", "href": "/integrations" }, { "label": "FAQ", "href": "#faq" } ] },
+      { "title": "Legal", "links": [ { "label": "Privacy Policy", "href": "/privacy-policy" }, { "label": "Terms of Service", "href": "/terms-of-service" }, { "label": "Cookie Policy", "href": "/cookie-policy" } ] }
+    ]
+  },
+  "pages": {
+    "/privacy-policy": {
+      "type": "legal",
+      "title": "Privacy Policy | AIB",
+      "description": "How AIB collects, uses, and protects personal information from website visitors, contact form and WhatsApp enquiries, and AI automation clients.",
+      "eyebrow": "Legal",
+      "heading": "Privacy Policy",
+      "updated": "Last updated: October 2026",
+      "intro": "This Privacy Policy explains how AIB, an independent AI automation and AI agent consultant, collects, uses, and protects personal information when you visit this website, contact me, or work with me on a project.",
+      "sections": [
+        { "heading": "1. Information I collect", "list": [
+          "Contact form details: your name, work email, company (optional), and the message you send when requesting a free AI audit.",
+          "WhatsApp messages: your phone number, profile name, and the messages you send if you contact me through WhatsApp Business.",
+          "Email correspondence: the content of emails you send me and my replies.",
+          "Client project data: business information and data you choose to give me access to during an engagement, such as customer records, spreadsheets, or documents.",
+          "Technical data: when you load this website, your browser shares standard information, such as your IP address and browser type, with the third-party services that deliver the site's fonts and styling. This website does not currently use analytics or tracking cookies. See the {cookiePolicy} for details."
+        ] },
+        { "heading": "2. How I use your information", "list": [
+          "To reply to your enquiry and prepare your free AI audit.",
+          "To plan, build, test, deliver, and support the services you request.",
+          "To communicate with you about your project, invoices, and support.",
+          "To meet legal, tax, and accounting obligations."
+        ], "after": "I do not sell your personal information, and I do not use it for advertising." },
+        { "heading": "3. Client business data", "paragraphs": [
+          "I access client business data only when it is necessary for the agreed project, and only to the extent the work requires. Before implementation, we agree in writing which systems and data I will access and how that data should be handled.",
+          "I handle client data according to those agreed instructions and do not use it for any other purpose. I protect it using reasonable security measures, as described in Section 7."
+        ] },
+        { "heading": "4. Third-party service providers", "paragraphs": [
+          "I use a small number of third-party services to run this website and communicate with you. Each provider processes data under its own privacy policy:"
+        ], "list": [
+          "Web3Forms: receives contact form submissions and delivers them to me by email.",
+          "Google (Gmail): my email provider, which stores enquiries and correspondence.",
+          "WhatsApp (Meta): handles messages if you contact me through WhatsApp Business.",
+          "Google Fonts and the Tailwind CSS content delivery network: deliver the fonts and styling used by this website.",
+          "The provider that hosts this website."
+        ], "after": "If a client project requires additional tools or services, they are agreed with the client before any data is shared with them." },
+        { "heading": "5. Legal basis", "paragraphs": [
+          "Where data protection laws such as the EU or UK GDPR apply, I process personal information on the basis of your consent (for example, when you submit the contact form), the performance of a contract with you or steps taken at your request before entering into one, my legitimate interest in responding to enquiries and running my business, and compliance with legal obligations."
+        ] },
+        { "heading": "6. Data retention and deletion", "list": [
+          "Enquiries: kept only for as long as needed to respond to you and follow up on your request. If no project follows, I delete them within a reasonable period, or sooner if you ask.",
+          "Client project data: kept only for the duration of the engagement. When the engagement ends, I return or delete it as agreed with you, unless the law requires me to keep it longer.",
+          "Invoices and accounting records: kept for as long as tax and accounting laws require.",
+          "Copies held by third-party providers (Section 4) are subject to those providers' own retention policies."
+        ], "after": "You can ask me to delete your personal information at any time using the contact details below." },
+        { "heading": "7. Security", "paragraphs": [
+          "I use reasonable technical and organizational measures to protect personal information, such as limiting access to what is necessary and keeping account credentials secure. No method of transmission or storage is completely secure, so I cannot guarantee absolute security."
+        ] },
+        { "heading": "8. International transfers", "paragraphs": [
+          "I work with clients in different countries, and the providers listed in Section 4 may process data outside your country of residence. Where the law requires it, I rely on the safeguards those providers offer for international transfers."
+        ] },
+        { "heading": "9. Your rights", "paragraphs": [
+          "Depending on where you live, you may have the right to access, correct, or delete your personal information, to receive a copy of it, to restrict or object to its processing, and to withdraw consent at any time. You may also have the right to complain to your local data protection authority.",
+          "To exercise any of these rights, email me at {email}. I will respond within the time required by applicable law."
+        ] },
+        { "heading": "10. Changes to this policy", "paragraphs": [
+          "I may update this policy from time to time. The latest version will always be on this page with its \"Last updated\" date."
+        ] },
+        { "heading": "11. Contact", "paragraphs": [
+          "If you have questions about this policy or how your information is handled, email {email}."
+        ] }
+      ]
+    },
+    "/terms-of-service": {
+      "type": "legal",
+      "title": "Terms of Service | AIB",
+      "description": "The terms that apply to using the AIB website and working with AIB on AI automation, AI agents, and consulting engagements.",
+      "eyebrow": "Legal",
+      "heading": "Terms of Service",
+      "updated": "Last updated: October 2026",
+      "intro": "These Terms of Service govern your use of this website and the AI automation and consulting services provided by AIB. By using this website or engaging my services, you agree to these terms.",
+      "sections": [
+        { "heading": "1. Using this website", "paragraphs": [
+          "The content on this website is general information about my services. It is not professional, legal, or financial advice. I aim to keep it accurate and available, but I do not guarantee that it is always complete, current, or uninterrupted."
+        ] },
+        { "heading": "2. Services and proposals", "paragraphs": [
+          "The scope, deliverables, timeline, and price of each engagement (Pilot, Scale, or Enterprise) are set out in a written proposal or statement of work. If that document conflicts with these terms, the proposal or statement of work takes priority."
+        ] },
+        { "heading": "3. Timelines", "paragraphs": [
+          "Timelines shown on this website are typical estimates. Actual delivery depends on the project scope, required integrations, and how quickly I receive access to the necessary tools, data, and approvals."
+        ] },
+        { "heading": "4. Fees and payment", "list": [
+          "Fees are listed in your proposal. Pilot engagements are billed once, and Scale engagements are billed monthly unless agreed otherwise.",
+          "Payment terms: [payment terms, e.g. due within 14 days of invoice].",
+          "Pilot credit and refund terms shown in the pricing section apply as described there.",
+          "Third-party costs such as software subscriptions, AI API usage, and messaging fees are paid by the client unless the proposal states otherwise."
+        ] },
+        { "heading": "5. Your responsibilities", "list": [
+          "Provide timely access to the accounts, tools, and data needed for the project.",
+          "Make sure you have the right to share any data you give me and to use it in automations.",
+          "Review and approve workflows before they go live.",
+          "Keep your own account credentials secure."
+        ] },
+        { "heading": "6. AI outputs", "paragraphs": [
+          "AI systems can produce inaccurate or incomplete results. You are responsible for reviewing AI-generated outputs before relying on them, especially for legal, financial, medical, or other important decisions. I recommend human review for any high-impact step."
+        ] },
+        { "heading": "7. Third-party tools", "paragraphs": [
+          "Automations depend on third-party platforms that I do not control. I am not responsible for their outages, policy changes, pricing changes, or discontinued features, but I will help you adapt where the agreed support plan covers it."
+        ] },
+        { "heading": "8. Intellectual property", "paragraphs": [
+          "Once full payment is received, you own the deliverables created specifically for your project. My pre-existing tools, templates, and methods remain mine, and you may use them as part of the deliverables provided to you."
+        ] },
+        { "heading": "9. Confidentiality", "paragraphs": [
+          "Both of us agree to keep the other's non-public business information confidential and to use it only for the engagement, unless disclosure is required by law."
+        ] },
+        { "heading": "10. Limitation of liability", "paragraphs": [
+          "To the extent permitted by law, I am not liable for indirect or consequential losses, such as lost profits or lost data, and my total liability for any claim is limited to the fees you paid me in the [3] months before the claim arose."
+        ] },
+        { "heading": "11. Ending an engagement", "paragraphs": [
+          "Either party may end an ongoing engagement with [notice period, e.g. 14 days] written notice. Fees for work completed up to the end date remain payable."
+        ] },
+        { "heading": "12. Changes and contact", "paragraphs": [
+          "I may update these terms from time to time; the latest version will always be on this page. Questions? Email {email}."
+        ] }
+      ]
+    },
+    "/cookie-policy": {
+      "type": "legal",
+      "title": "Cookie Policy | AIB",
+      "description": "How the AIB website uses cookies, analytics, and third-party services, and how you can control them.",
+      "eyebrow": "Legal",
+      "heading": "Cookie Policy",
+      "updated": "Last updated: October 2026",
+      "intro": "This Cookie Policy explains how this website uses cookies and similar technologies, and the choices you have.",
+      "sections": [
+        { "heading": "1. What cookies are", "paragraphs": [
+          "Cookies are small text files that a website stores in your browser. They can keep a site working, remember preferences, or measure how a site is used."
+        ] },
+        { "heading": "2. Cookies on this website", "paragraphs": [
+          "At present, this website does not set its own advertising or tracking cookies, and it does not use cookies to profile visitors."
+        ] },
+        { "heading": "3. Analytics", "paragraphs": [
+          "If I add analytics in the future to understand how the site is used, I will update this policy first and, where the law requires it, ask for your consent before any non-essential cookies are set."
+        ] },
+        { "heading": "4. Third-party services", "list": [
+          "Fonts and styling libraries are loaded from third-party content delivery networks (such as Google Fonts), which receive your IP address to deliver the files.",
+          "When you submit the contact form, your details are sent to Web3Forms so they can be delivered to me by email.",
+          "When you click the WhatsApp button, you leave this site and WhatsApp's own cookie and privacy policies apply."
+        ] },
+        { "heading": "5. Managing cookies", "paragraphs": [
+          "You can block or delete cookies at any time in your browser settings. Blocking cookies will not stop this website from working."
+        ] },
+        { "heading": "6. Changes and contact", "paragraphs": [
+          "I may update this policy when the website changes. Questions? Email {email}."
+        ] }
+      ]
+    },
+    "/blog": {
+      "type": "message",
+      "title": "Blog | AIB",
+      "description": "Practical guides on AI automation, workflows, and real-world implementation from AIB. Coming soon.",
+      "eyebrow": "Blog",
+      "heading": "Insights are coming soon.",
+      "text": "I'm preparing practical guides on AI automation, workflows, and real-world implementation. Check back soon, or get your free AI audit to talk about your business today.",
+      "ctas": [ { "label": "Back to Home", "href": "/", "variant": "secondary" }, { "label": "Get Your Free AI Audit", "href": "/#contact" } ]
+    },
+    "/integrations": {
+      "type": "integrations",
+      "title": "Integrations | AIB",
+      "description": "AI agents, business automation, API and app integration, data systems, AI customer support, and custom AI systems that connect your business.",
+      "eyebrow": "Integrations",
+      "heading": "AI Solutions That Connect Your Business",
+      "subtitle": "I design AI agents and automated systems that connect your tools, streamline workflows, and solve real business problems.",
+      "items": [
+        { "icon": "ai", "title": "AI Agents", "description": "Handle lead qualification, customer support, and repetitive business tasks." },
+        { "icon": "gear", "title": "Business Automation", "description": "Automate workflows, notifications, data handling, and follow-ups." },
+        { "icon": "network", "title": "API & App Integration", "description": "Connect websites, business apps, APIs, and webhooks." },
+        { "icon": "sheet", "title": "Business Data Systems", "description": "Organize leads, customer data, and business records." },
+        { "icon": "chat", "title": "AI Customer Support", "description": "Answer customer questions and route complex requests." },
+        { "icon": "bulb", "title": "Custom AI Systems", "description": "Build tailored AI solutions based on your business needs." }
+      ],
+      "cta": { "label": "Get Your Free AI Audit", "href": "/#contact" }
+    },
+    "/404": {
+      "type": "message",
+      "title": "Page Not Found | AIB",
+      "description": "The page you're looking for doesn't exist.",
+      "code": "404",
+      "eyebrow": "Page not found",
+      "heading": "This page doesn't exist.",
+      "text": "The link may be broken, or the page may have moved. Let's get you back on track.",
+      "ctas": [ { "label": "Back to Home", "href": "/" } ]
+    }
+  }
+}
