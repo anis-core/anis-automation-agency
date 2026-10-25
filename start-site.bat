@@ -1,4 +1,4 @@
 @echo off
 cd /d "%~dp0"
-start "" http://localhost:8080/
+start "" http://127.0.0.1:8080/
 python serve.py

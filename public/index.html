@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Only this site's own scripts and styles (no inline code, no CDN scripts), plus Google Fonts and Web3Forms -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://api.web3forms.com; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- Root-relative base so assets and "#section" links resolve the same on /privacy-policy, /blog, etc. -->
+  <base href="/" />
+  <title>AIB — AI Automation Agency</title>
+  <meta name="description" content="" />
+  <link rel="icon" href="/Brand-image.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body class="bg-page text-ink font-sans antialiased overflow-x-hidden">
+
+  <svg width="0" height="0" class="absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="glassEdge" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#7dd3fc" stop-opacity=".9" />
+        <stop offset=".5" stop-color="#22d3ee" stop-opacity=".55" />
+        <stop offset="1" stop-color="#38bdf8" stop-opacity=".85" />
+      </linearGradient>
+      <linearGradient id="glassCore" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".95" />
+        <stop offset=".45" stop-color="#e0f7ff" stop-opacity=".8" />
+        <stop offset=".7" stop-color="#ffffff" stop-opacity=".95" />
+        <stop offset="1" stop-color="#cffafe" stop-opacity=".85" />
+      </linearGradient>
+      <linearGradient id="hexFill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#f0f9ff" />
+        <stop offset="1" stop-color="#d4eefa" />
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <header id="nav" class="sticky top-0 z-50 px-4 pt-4"></header>
+
+  <main id="home">
+    <section id="hero" class="relative overflow-hidden"></section>
+    <section id="logos" class="relative overflow-hidden"></section>
+    <section id="stats"></section>
+    <section id="problems" class="scroll-mt-24"></section>
+    <section id="services" class="scroll-mt-24"></section>
+    <section id="industries" class="scroll-mt-24"></section>
+    <section id="process" class="scroll-mt-24 relative overflow-hidden"></section>
+    <section id="case" class="scroll-mt-24"></section>
+    <section id="pricing" class="scroll-mt-24"></section>
+    <section id="faq" class="scroll-mt-24"></section>
+    <section id="contact" class="scroll-mt-24"></section>
+  </main>
+
+  <!-- Sub-pages (/privacy-policy, /blog, /404, …) render here instead of the home sections -->
+  <main id="page" class="hidden"></main>
+
+  <footer id="footer"></footer>
+
+  <div id="load-error" class="hidden max-w-xl mx-auto my-24 p-6 rounded-xl border border-line bg-surface text-muted text-center">
+    Could not load <code class="text-accentdeep">config.json</code>. Open this site through a local server
+    (for example <code class="text-accentdeep">python serve.py</code> or <code class="text-accentdeep">start-site.bat</code>) rather than as a file.
+  </div>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>
